@@ -54,11 +54,11 @@ class _HomePageState extends State<HomePage> {
                   child: BottomNavigationBar(
                     items: [
                       BottomNavigationBarItem(
-                        icon: Icon(Icons.person),
+                        icon: Icon(Icons.groups),
                         label: 'Employees',
                       ),
                       BottomNavigationBarItem(
-                        icon: Icon(Icons.groups),
+                        icon: Icon(Icons.business_center),
                         label: 'Departments',
                       ),
                     ],
@@ -80,11 +80,11 @@ class _HomePageState extends State<HomePage> {
                     extended: constraints.maxWidth >= 600,
                     destinations: [
                       NavigationRailDestination(
-                        icon: Icon(Icons.person),
+                        icon: Icon(Icons.groups),
                         label: Text('Employees'),
                       ),
                       NavigationRailDestination(
-                        icon: Icon(Icons.groups),
+                        icon: Icon(Icons.business),
                         label: Text('Departments'),
                       ),
                     ],

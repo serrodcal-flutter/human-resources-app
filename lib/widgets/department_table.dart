@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:human_resources_app/commons/constants.dart';
 
 class DepartmentDataTable extends StatelessWidget {
   @override
@@ -11,10 +12,7 @@ class DepartmentDataTable extends StatelessWidget {
           label: Expanded(
             child: Text(
               'Id',
-              style: TextStyle(
-                  fontStyle: FontStyle.italic,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.teal),
+              style: Constants.headingDataTableTextStyle,
             ),
           ),
         ),
@@ -22,10 +20,7 @@ class DepartmentDataTable extends StatelessWidget {
           label: Expanded(
             child: Text(
               'Name',
-              style: TextStyle(
-                  fontStyle: FontStyle.italic,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.teal),
+              style: Constants.headingDataTableTextStyle,
             ),
           ),
         ),
